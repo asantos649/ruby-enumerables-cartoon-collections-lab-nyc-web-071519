@@ -1,6 +1,6 @@
 def roll_call_dwarves(array)
   role = array.each_with_index {|dwarf,i|
-  puts i
+  puts "#{i} #{dwarf}"
   }
   return role 
 end
